@@ -1,0 +1,8 @@
+target
+.settings/
+.project
+.classpath
+.pm
+.pmd
+release.properties
+*.releaseBackup

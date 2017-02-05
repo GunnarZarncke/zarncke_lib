@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Archiver-Version: Test Archiver
+Created-By: Hand Written
+Built-By: Gunnar Zarncke
+Build-Jdk: 1.5.0_06
+Main-Class: de.zarncke.lib.init.BootDummy
+Class-Path: test.zip
+

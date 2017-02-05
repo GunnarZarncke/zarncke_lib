@@ -1,0 +1,15 @@
+<project>
+  <poweredBy>
+    <logo name="Frank Lounge" href="http://www.frank-lounge.de/"
+          img="images/frank-lounge-64.png"/>
+  </poweredBy>
+  
+  <body>
+    <links>
+      <item name="Sonar" href="http://frank-lounge.de:9000/project/index/1" />
+    </links>
+    <menu ref="reports" />
+    <menu ref="modules" />
+  </body>
+</project>
+
