@@ -12,10 +12,6 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
-
-import de.zarncke.lib.cache.Cache;
 import de.zarncke.lib.err.CantHappenException;
 import de.zarncke.lib.io.IOTools;
 import de.zarncke.lib.lang.gen.ClassBinaryCreator;
@@ -23,6 +19,8 @@ import de.zarncke.lib.lang.gen.ClassFactory;
 import de.zarncke.lib.lang.gen.ClassSet;
 import de.zarncke.lib.lang.gen.DemandClassLoader;
 import de.zarncke.lib.struct.PartialOrder;
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
 
 /**
  * Tests class related classes of util package.
@@ -437,7 +435,7 @@ public class ClassTest extends TestCase {
 		map.put("F", "F");
 		map.put("I", "I");
 		map.put("J", "J");
-		map.put("K", ClassFactory.toSignature(Cache[].class));
+		map.put("K", ClassFactory.toSignature(String[].class));
 		ClassFactory.Spec s = new ClassFactory.Spec("de.zarncke.lib.util.Temp", true, map, null, new String[0]);
 
 		Class<?> c = cf.createClass(s);
