@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.zarncke</groupId>
 	<artifactId>lib</artifactId>
-	<version>1.1-SNAPSHOT</version>
+	<version>1.2</version>
 	<packaging>jar</packaging>
 	<name>Zarncke Library</name>
 	<url>http://frank-lounge.de/lib</url>
