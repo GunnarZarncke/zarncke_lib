@@ -161,22 +161,22 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-core</artifactId>
-			<version>2.2.2</version>
+			<version>2.9.9</version>
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-annotations</artifactId>
-			<version>2.2.2</version>
+			<version>2.9.9</version>
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>2.2.2</version>
+			<version>2.9.9</version>
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.module</groupId>
 			<artifactId>jackson-module-jaxb-annotations</artifactId>
-			<version>2.2.2</version>
+			<version>2.9.9</version>
 		</dependency>
 	</dependencies>
 	<profiles>
@@ -210,14 +210,6 @@
 				</site>
 			</distributionManagement>
 		</profile>
-		<!-- <profile> <id>konzentrik profile</id> <activation> <activeByDefault>false</activeByDefault> 
-			<property> <name>deploy</name> <value>konzentrik</value> </property> </activation> 
-			<build> <plugins> <plugin> <groupId>de.zarncke.plugin</groupId> <artifactId>maven-sourcex-plugin</artifactId> 
-			<version>1.0</version> <executions> <execution> <phase>generate-sources</phase> 
-			<goals> <goal>jar-no-fork</goal> </goals> <configuration> <newHeader> Copyright 
-			2000-2012 by Gunnar Zarncke Licensed to konzentrik GmbH under special license 
-			agreement as of July, 12th 2010. </newHeader> <attach>true</attach> </configuration> 
-			</execution> </executions> </plugin> </plugins> </build> </profile> -->
 	</profiles>
 	<build>
 		<plugins>
